@@ -15,6 +15,8 @@
 		FF4E22CD248F620000A50FD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4E22CB248F620000A50FD8 /* LaunchScreen.storyboard */; };
 		FF4E22D5248F65B900A50FD8 /* LoaderCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E22D4248F65B900A50FD8 /* LoaderCircleView.swift */; };
 		FF4E22D7248F65EE00A50FD8 /* CircleFluidShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E22D6248F65EE00A50FD8 /* CircleFluidShape.swift */; };
+		FF4E22D9248F782000A50FD8 /* LoaderRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E22D8248F782000A50FD8 /* LoaderRectView.swift */; };
+		FF4E22DB248F784800A50FD8 /* RectFluidShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E22DA248F784800A50FD8 /* RectFluidShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		FF4E22CE248F620000A50FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF4E22D4248F65B900A50FD8 /* LoaderCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderCircleView.swift; sourceTree = "<group>"; };
 		FF4E22D6248F65EE00A50FD8 /* CircleFluidShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleFluidShape.swift; sourceTree = "<group>"; };
+		FF4E22D8248F782000A50FD8 /* LoaderRectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderRectView.swift; sourceTree = "<group>"; };
+		FF4E22DA248F784800A50FD8 /* RectFluidShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectFluidShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				FF4E22C8248F620000A50FD8 /* Preview Content */,
 				FF4E22D4248F65B900A50FD8 /* LoaderCircleView.swift */,
 				FF4E22D6248F65EE00A50FD8 /* CircleFluidShape.swift */,
+				FF4E22D8248F782000A50FD8 /* LoaderRectView.swift */,
+				FF4E22DA248F784800A50FD8 /* RectFluidShape.swift */,
 			);
 			path = Loader;
 			sourceTree = "<group>";
@@ -152,7 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4E22DB248F784800A50FD8 /* RectFluidShape.swift in Sources */,
 				FF4E22C1248F61FE00A50FD8 /* AppDelegate.swift in Sources */,
+				FF4E22D9248F782000A50FD8 /* LoaderRectView.swift in Sources */,
 				FF4E22D5248F65B900A50FD8 /* LoaderCircleView.swift in Sources */,
 				FF4E22C3248F61FE00A50FD8 /* SceneDelegate.swift in Sources */,
 				FF4E22C5248F61FE00A50FD8 /* ContentView.swift in Sources */,
