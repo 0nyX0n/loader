@@ -9,13 +9,49 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // Internal properties
+    @State private var isCircle = false
+    @State private var isRect = false
+    
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            // View
+            VStack() {
+                Spacer()
+                Text("Loader")
+                    .font(.largeTitle)
+                    .bold()
+                Spacer()
+                HStack(spacing: 20) {
+                    Spacer()
+                    Button(action: {
+                        self.isCircle.toggle()
+                    }) {
+                        Text("Cicrle")
+                    }
+                    Spacer()
+                    Button(action: {
+                        self.isRect.toggle()
+                    }) {
+                        Text("Rectangle")
+                    }
+                    Spacer()
+                }
+                Spacer()
+                
+                // Navigation
+                NavigationLink(destination: LoaderCircleView(), isActive: $isCircle) { EmptyView() }
+                NavigationLink(destination: LoaderRectView(), isActive: $isRect) { EmptyView() }
+            }
+        }
     }
 }
 
+#if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+#endif
